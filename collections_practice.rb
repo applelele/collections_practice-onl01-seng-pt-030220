@@ -32,6 +32,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
-  array.find{|word| word.start_with("a")}
+  new_array = []
+  letter = array.find{|word| word.start_with?("a")}
+  new_arra
 end
