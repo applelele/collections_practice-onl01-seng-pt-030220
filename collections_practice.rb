@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   new_array = []
-  letter = array.find{|word| word.start_with?("a")}
-  new_arra
+  array.find{|word| word.start_with?("a")}
+  
 end
