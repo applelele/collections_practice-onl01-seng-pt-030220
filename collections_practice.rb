@@ -32,10 +32,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.sellect do |string|
-    if string.start_with?("a")}
+  array.select do |string|
+    if string.start_with?("a")
       string
     else
-      nill
+      nil
     end
+  end
 end
