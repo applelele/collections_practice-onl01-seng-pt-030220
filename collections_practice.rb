@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   new_array = []
-  array.find{|word| word.start_with?("a")}
+  if array.start_with?("a")
   
 end
